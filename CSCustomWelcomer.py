@@ -27,7 +27,7 @@ bot = commands.Bot(command_prefix='cscw!', intents=intents)
 
 @bot.event
 async def on_ready():
-    print("CSCustomWelcomer v1.0\n\nReleased: 11/05/2024\n\nSource on https://github.com/deltagamesyt/cs-custom-welcomer")
+    print("CSCustomWelcomer v1.0.1\n\nReleased: 19/05/2024\n\nSource on https://github.com/deltagamesyt/cs-custom-welcomer")
     print(f"Cliente conectado: {bot.user.name}")
     print(f"Connected client: {bot.user.name}")
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name='member joins'))
