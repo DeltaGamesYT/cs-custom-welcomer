@@ -45,7 +45,7 @@ Pega el ID del canal donde se envuaran los mensajes de salida, guardalo como INT
 Escribe el mensaje de bienvenida. `[member.mention]` mencionara al miembro, y `[guild.name]` mostrara el nombre del servidor.
  - leave_msg, linea 15
 
-Escribe el mensaje de salida, `[member.name]` se reemplazara por el nombre de usuario, y `[guild.name]`
+Escribe el mensaje de salida, `[member.name]` se reemplazara por el nombre de usuario, y `[guild.name]` por el nombre del servidor.
 #### Ejecuta el bot
 Subelo a un servidor online, o ejecutalo en local con Python:
 
