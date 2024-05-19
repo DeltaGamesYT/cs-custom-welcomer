@@ -6,6 +6,9 @@ A Discord bot that allows you to customize welcome and goodbye messages for user
 - discord.py
 - A bot account
 
+### Support
+[Discord](https://discord.gg/htyNZJNXPU)
+
 ### Instalacion (English Guide in progress)
 #### Descarga la version mas reciente
 Ve a la seccion Releases, y descarga el archivo "CSCustomWelcomer.py" de la version mas reciente del bot.
