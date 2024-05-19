@@ -16,7 +16,7 @@ leave_msg = "**[member.name]** salio de **[guild.name]**"
 
 
 # BOT CODE        CODIGO DEL BOT
-# DONT'T MODIFY   NO MODIFICAR
+# DON'T MODIFY    NO MODIFICAR
 intents = discord.Intents.default()
 intents.members = True
 intents.messages = True
