@@ -30,7 +30,7 @@ async def on_ready():
     print("CSCustomWelcomer v1.0\n\nReleased: 11/05/2024\n\nSource on https://github.com/deltagamesyt/cs-custom-welcomer")
     print(f"Cliente conectado: {bot.user.name}")
     print(f"Connected client: {bot.user.name}")
-    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name='meber joins'))
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name='member joins'))
 @bot.event
 async def on_member_join(member):
     server_name = member.guild.name
