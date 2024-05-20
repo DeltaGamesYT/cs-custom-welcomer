@@ -39,7 +39,7 @@ Pega el token del bot que copiaste antes, guardalo como STRING
 Pega el ID del canal donde se enviaran las bienvenidas, guardalo como INT
  - leave_id, linea 10
 
-Pega el ID del canal donde se envuaran los mensajes de salida, guardalo como INT
+Pega el ID del canal donde se enviaran los mensajes de salida, guardalo como INT
  - welcome_msg, linea 12
 
 Escribe el mensaje de bienvenida. `[member.mention]` mencionara al miembro, y `[guild.name]` mostrara el nombre del servidor.
