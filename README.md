@@ -40,10 +40,13 @@ Pega el ID del canal donde se enviaran las bienvenidas, guardalo como INT
  - leave_id, linea 10
 
 Pega el ID del canal donde se enviaran los mensajes de salida, guardalo como INT
- - welcome_msg, linea 12
+ - mtype, línea 12
+
+Selecciona el tipo de mensaje: `text` o `embed`
+ - welcome_msg, linea 15
 
 Escribe el mensaje de bienvenida. `[member.mention]` mencionara al miembro, y `[guild.name]` mostrara el nombre del servidor.
- - leave_msg, linea 15
+ - leave_msg, linea 17
 
 Escribe el mensaje de salida, `[member.name]` se reemplazara por el nombre de usuario, y `[guild.name]` por el nombre del servidor.
 #### Ejecuta el bot
